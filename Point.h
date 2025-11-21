@@ -2,6 +2,7 @@
 namespace points{
 
 class Point{
+    public:
     virtual double get_x() const = 0;
     virtual double get_y() const = 0;
     virtual double get_z() const = 0;
