@@ -2,7 +2,6 @@
 #include "Point.h"
 
 namespace points{
-
 double Point::get_x()const {return 0;};
 double Point::get_y()const {return 0;};
 double Point::get_z()const {return 0;};
