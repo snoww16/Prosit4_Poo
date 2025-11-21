@@ -2,14 +2,14 @@
 #include "Point.h"
 
 namespace points{
-    class Point2D : public Point{
+    class Point3D : public Point{
         private :
             double x;
             double y;
 
         public :
-            Point2D(double,double);
-            Point2D(*Point);
+            Point3D(double,double);
+            Point3D(*Point);
             double get_x() const override;
             double get_y() const override;
             double get_z() const override;
