@@ -15,5 +15,5 @@ namespace points{
             void set_x(double) override;
             void set_y(double) override;
             void afficher() const override;
-    }
+    };
 }
